@@ -1,0 +1,13 @@
+.content {
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+
+.text {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+

@@ -1,0 +1,15 @@
+.holder {
+  display: flex;
+  border-radius: 6px;
+  padding: 26px 20px;
+  align-items: center;
+  background: white;
+  transition: all 255ms;
+  will-change: transform, box-shadow;
+}
+
+.holder:hover {
+  box-shadow: 0px 0px 8px 2px var(--shadow);
+  background-color: var(--list-hover);
+  transform: scale(1.03);
+}
